@@ -4,7 +4,7 @@ from sys import argv
 # i am breaking my argument down into two variables
 script, filename = argv
 
-# i can open a a file and store that ability inside a variable. creating a file object
+# i have created a file object. this is like creating the machine that will allow me to read the file
 txt = open(filename)
 
 # this just prints a message
