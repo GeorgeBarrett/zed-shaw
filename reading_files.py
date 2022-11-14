@@ -7,7 +7,7 @@ script, filename = argv
 # i have created a file object. this is like creating the machine that will allow me to read the file
 txt = open(filename)
 
-# this just prints a message
+# this just prints a message. i am typing sample_text.txt in the terminal to display the argument 'filename'
 print(f'Here\'s your file name {filename}:')
 
 # i am printing the variable that stores my filename but without the 'open'
